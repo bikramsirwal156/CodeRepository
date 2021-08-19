@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: beige;
+    font-family: sans-serif;
+}
+.container{
+    border: 2px solid red;
+    height: 200px;
+    width: 300px;
+    padding: 50px;
+    margin: 30px 350px; 
+    background-color: white;
+}
+.container .input{
+    height: 30px;
+    width: 250px;
+}
+.container .btn{
+    height: 30px;
+    width: 40px;
+    background-color: green;
+    opacity: 0.9px;
+    color: white;
+    font-family: cursive;
+    border: 1px solid yellow;
+}
+.container ul{
+    list-style:decimal;
+    padding: 0px;
+    color: blue;
+}
+.container #error{
+    color: red;
+    font-family: monospace;
+    font-size: 18px;
+    
+}
